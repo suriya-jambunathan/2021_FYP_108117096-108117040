@@ -9,6 +9,7 @@ Created on Fri Mar 19 16:08:57 2021
 import numpy as np
 import random
 from sklearn.metrics import mean_squared_error
+from classes import *
 # GENETIC ALGORITHM
 
 class GeneticAlgorithm(object):
@@ -98,6 +99,11 @@ class ga_processing(object):
             try:
                 model.fit((X_train.iloc[:,chromosome]),(y_train))
                 predictions = model.predict((X_test.iloc[:,chromosome]))
+                # Change 'mean_squared_error' with WMAPE, MSE, R2_Score, MSE * WMAPE, MSE + WMAPE, depending on the one required
+                '''
+                if mtrc == 'WMAPE' :
+                    scores.appendscores.append(metric.wmape(y_test),list(predictions))
+                '''
                 scores.append(mean_squared_error(y_test),list(predictions))
             except:
                 scores.append(1000000000)

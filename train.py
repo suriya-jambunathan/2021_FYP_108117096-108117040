@@ -1,11 +1,12 @@
+# Python code to train the genetic algorithm in conjunction with class_reg algorithm
+
 import numpy as np
 import pandas as pd
 import random
 import os
 
-#addr_ = 
-
-os.chdir(addr_ + 'Library')
+import sys
+sys.path.append('MLANT/')
 from GeneticAlgorithm import *
 from classes import * 
 filename = addr_ + 'Dataset/antenna.csv'
@@ -16,7 +17,6 @@ X_list = list(data.columns)[:7]
 params= ['bandwidth', 'gain', 'vswr']
 
 param = params[0]
-conf = []
 
 X_train, X_test, y_train, y_test = train_test_split(data[X_list],
                                                     pd.DataFrame(data[param]),
@@ -44,6 +44,5 @@ mse = mse**2
 
 wmape = metric.wmape(list(y_totest[0]),list(predictions))
 
-conf.append([param, chromo, score, ind, chromo[ind],wmape, mse ])
-print("\nAccuracy score after genetic algorithm is = "+str(mse))
-print(metric.wmape(list(y_totest[0]),list(predictions)))
+print("\Mean Squared Error  after genetic algorithm is = "+str(mse))
+print("\Weighted Mean Absolute Percentage Error after genetic algorithm is = "+str(wmape))

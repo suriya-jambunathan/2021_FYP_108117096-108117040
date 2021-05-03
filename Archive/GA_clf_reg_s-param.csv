@@ -1,0 +1,6 @@
+,0,1,2,wmape,mse,r2_score
+0,mse,s,[False False  True  True  True  True  True],2.4747955379555817,1.2189354674862143,0.9749791828973832
+1,mape,s,[ True  True  True  True  True  True  True],7.772672436667049,1.3620867219605821,0.8434275132600937
+2,r2_score,s,[ True False  True False  True  True  True],2.3943770627907313,1.1916140050527564,0.990555512163122
+3,mse_mul_mape,s,[ True False  True False  True  True  True],2.9607121874806985,1.228414495696435,0.9782439666961301
+4,mse_plus_mape,s,[False False  True False  True  True  True],1.4970930616222762,1.2004335334873033,0.9862288913553086

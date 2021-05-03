@@ -1,10 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 10 12:35:01 2021
+# Python Code implementation fo Class_Reg ALGORITHM
 
-@author: suriyaprakashjambunathan
-"""
 
 import pandas as pd
 import numpy as np

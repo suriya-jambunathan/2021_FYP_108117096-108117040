@@ -1,10 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 10 18:06:35 2021
+# Python Code for the classifiers and regressors used in Class_Reg ALGORITHM
 
-@author: suriyaprakashjambunathan
-"""
 
 import warnings
 warnings.simplefilter(action='ignore')

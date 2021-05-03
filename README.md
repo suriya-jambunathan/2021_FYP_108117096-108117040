@@ -7,3 +7,6 @@ Suriya Prakash Jambunathan, 108117096
 Harish Raj D.R., 108117040
 
 
+[embed]http://example.com/file.pdf[/embed]
+
+

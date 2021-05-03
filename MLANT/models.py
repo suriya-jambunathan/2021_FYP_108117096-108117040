@@ -1,6 +1,5 @@
 # Python Code for the classifiers and regressors used in Class_Reg ALGORITHM
 
-
 import warnings
 warnings.simplefilter(action='ignore')
 

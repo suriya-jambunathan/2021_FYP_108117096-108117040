@@ -1,16 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 19 16:08:57 2021
-
-@author: suriyaprakashjambunathan
-"""
+# Python Code implementation fo GENETIC ALGORITHM
 
 import numpy as np
 import random
 from sklearn.metrics import mean_squared_error
 from classes import *
-# GENETIC ALGORITHM
 
 class GeneticAlgorithm(object):
     

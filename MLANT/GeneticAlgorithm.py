@@ -1,4 +1,4 @@
-# Python Code implementation fo GENETIC ALGORITHM
+# Python Code implementation for GENETIC ALGORITHM
 
 import numpy as np
 import random

@@ -1,5 +1,4 @@
-# Python Code implementation fo Class_Reg ALGORITHM
-
+# Python Code implementation for Class_Reg ALGORITHM
 
 import pandas as pd
 import numpy as np
